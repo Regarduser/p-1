@@ -60,12 +60,13 @@ html{ scroll-behavior: smooth; }
 
 
 /****************** project work ****************/
-.Cricket_update{
-	margin: 0 0 30px 0;
+.Cricket_Live{
+  size: 100px;
+	margin: 0 0 100px 0;
 	/*background-color:wheat;*/
 }
 
-.Cricket_update h3{ color: #e92f2f; size: 50px; }
+.Cricket_Live h3{ color: #e92f2f; size: 50px; }
 
 .Cricket_update h1{
 	font-size: 2rem;
