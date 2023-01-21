@@ -78,7 +78,7 @@ html{ scroll-behavior: smooth; }
 /******************* about css **************/
 
 .sub_section{ 
-	background-color: #a4a0d0;
+	background-color: #1c0bdb;
   color: white;
 	/*padding: 50px 0;*/
  }
@@ -102,7 +102,7 @@ html{ scroll-behavior: smooth; }
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #00A8FF; /* Set a background color */
+  background-color: #0a1fbd; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 10px; /* Some padding */
