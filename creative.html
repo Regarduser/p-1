@@ -14,6 +14,7 @@
 html{
   min-height: 100%;
   overflow: hidden;
+  
 }
 body{
   height: calc(100vh - 8em);
@@ -25,35 +26,44 @@ body{
 .line-1{
     position: relative;
     top: 50%;  
-    width: 24em;
+    width: 15em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-25%);    
 }
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 3s steps(25) 1s 1 normal both,
+             blinkTextCursor 1000ms steps(25) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 20em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+  html{
+    border: 10px rgba(25, 29, 44, 0.541) solid;
+  }
+
+  
+
     </style>
 
 
     
 </head>
 <body>
+  <nav>
+    <a href="./index.html" class="btn-back"><img src="./images/arrow.png" alt="back" width="60px" height="60px"></a>
+  </nav>
     <p class="line-1 anim-typewriter">Hello I am Ram Pareek</p>
 </body>
 </html>
