@@ -22,5 +22,5 @@ font-size: 20px;
 
 @media screen and (max-width: 600px)
 { 
-    glyph-orientation-horizontal;
+    font-size: 10px;
 }
