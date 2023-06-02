@@ -6,7 +6,7 @@ html{ scroll-behavior: smooth; }
 
 .row{ margin: 0!important; }
 
-.nav_style{ background-color: #0c0479!important;  }
+.nav_style{ background-color: orange!important;  }
 
 .nav_style a{ color: white; }
 
@@ -79,8 +79,10 @@ html{ scroll-behavior: smooth; }
 /******************* about css **************/
 
 .sub_section{ 
-	background-color: #1c0bdb;
+	background-color: orange;
   color: white;
+  text-align: justify;
+  font-size: 20px;
 	/*padding: 50px 0;*/
  }
 
