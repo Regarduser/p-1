@@ -1,3 +1,3 @@
-# cricket4u.github.io
+# p-1 project
 my new website
-https://regarduser.github.io/crick4u.github.io/
+https://regarduser.github.io/p-1/
