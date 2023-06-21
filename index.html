@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media-quries.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
         <a href="#" class="company-logo">
             <img src="./asset/asset 1.png" alt="company logo">
         </a>
-        <div class="nav-links">
+        <div class="nav-links"  id="nav-links">
             <ul class="flex">
                 <li><a href="#" class="hover-link">Product</a></li>
                 <li><a href="#" class="hover-link">customer</a></li>
@@ -32,6 +33,7 @@
                 <li><a href="#" class="hover-link primary-button">Sign up</a></li>
             </ul>
         </div>
+        <a href="#" class="nav-toggel hover-link" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
     </div>
     </nav>
 
@@ -58,7 +60,7 @@
           <div class="small-bold-text company-header">The world’s best companies rely on UsabilityHub to make better design decisions.</div>
           <div class="logos flex">
             <img class="logo" src="./asset/asset 3.png" alt="">
-            <img class="logo" src="./asset/asset 4.png" alt="">
+            <img class="logo" src="./asset/asset 4.png"     alt="">
             <img class="logo" src="./asset/asset 5.png" alt="">
             <img class="logo" src="./asset/asset 6.png" alt="">
             <img class="logo" src="./asset/asset 7.png" alt="">
@@ -136,7 +138,7 @@
     </section>
     <section 
     class="container big-feature-section">
-        <div class="flex big-feature-container" style="flex-direction: row-reverse;">
+        <div class="flex big-feature-container" id="second-big-feature" >
             <div class="feature-img">
                 <img src="./asset/asset 21.png" alt="">
             </div>
@@ -262,5 +264,12 @@
     </div>
 
     <script src="https://kit.fontawesome.com/ba692e677c.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => { navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
